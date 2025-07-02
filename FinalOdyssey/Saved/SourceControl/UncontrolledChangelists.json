@@ -5,6 +5,12 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/Third Party Apps/Final-Odyssey/FinalOdyssey/Content/TopDownLevel/Characters/BONKer.uasset",
+				"D:/Third Party Apps/Final-Odyssey/FinalOdyssey/Content/Maps/TopDownLevel.umap",
+				"D:/Third Party Apps/Final-Odyssey/FinalOdyssey/Content/TopDownLevel/Objects/Obstacle_BP.uasset",
+				"D:/Third Party Apps/Final-Odyssey/FinalOdyssey/Content/TopDownLevel/Graphics/Sprites/Goober_box.uasset",
+				"D:/Third Party Apps/Final-Odyssey/FinalOdyssey/Content/TopDownLevel/Graphics/Sprites/Goober_box_Sprite.uasset",
+				"D:/Third Party Apps/Final-Odyssey/FinalOdyssey/Content/TopDownLevel/Graphics/Sprites/Goober_box_Flipbook.uasset",
 				"C:/Program Files/Epic Games/UE_5.5/Engine/Content/EditorMaterials/Cloth/CameraLitDoubleSided.uasset",
 				"C:/Users/xlile/Desktop/3PA/Code/Games/Final Odyssey/Final-Odyssey/FinalOdyssey/Content/StarterContent/Architecture/Floor_400x400.uasset",
 				"C:/Users/xlile/Desktop/3PA/Code/Games/Final Odyssey/Final-Odyssey/FinalOdyssey/Content/Maps/TopDownLevel.umap",
