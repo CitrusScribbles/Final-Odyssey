@@ -5,6 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/Game Dev Stuff/Final-Odyssey/FinalOdyssey/Content/ItemLevels/CargoLevel/UI/DragSlot_Wid.uasset",
+				"D:/Game Dev Stuff/Final-Odyssey/FinalOdyssey/Content/ItemLevels/CommerceLevel/TheGoodsSlot_Wid.uasset",
+				"D:/Game Dev Stuff/Final-Odyssey/FinalOdyssey/Content/ItemLevels/CommerceLevel/ResourceSlots_Wid.uasset",
 				"C:/Program Files/Epic Games/UE_5.5/Engine/Content/EditorMaterials/Cloth/CameraLitDoubleSided.uasset",
 				"C:/Users/xlile/Desktop/3PA/Code/Games/Final-Odyssey/FinalOdyssey/Content/TopDownLevel/BlueprintsMisc/Spawner_BP.uasset",
 				"C:/Users/xlile/Desktop/3PA/Code/Games/Final-Odyssey/FinalOdyssey/Content/Maps/TopDownLevel.umap",
