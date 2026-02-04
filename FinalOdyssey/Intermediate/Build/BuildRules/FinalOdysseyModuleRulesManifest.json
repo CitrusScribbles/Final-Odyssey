@@ -1,0 +1,10 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\xlile\\Desktop\\3PA\\Code\\Games\\Final-Odyssey\\FinalOdyssey\\Intermediate\\Source\\FinalOdyssey.Build.cs",
+		"C:\\Users\\xlile\\Desktop\\3PA\\Code\\Games\\Final-Odyssey\\FinalOdyssey\\Intermediate\\Source\\FinalOdyssey.Target.cs",
+		"C:\\Users\\xlile\\Desktop\\3PA\\Code\\Games\\Final-Odyssey\\FinalOdyssey\\Intermediate\\Source\\FinalOdysseyClient.Target.cs",
+		"C:\\Users\\xlile\\Desktop\\3PA\\Code\\Games\\Final-Odyssey\\FinalOdyssey\\Intermediate\\Source\\FinalOdysseyEditor.Target.cs",
+		"C:\\Users\\xlile\\Desktop\\3PA\\Code\\Games\\Final-Odyssey\\FinalOdyssey\\Intermediate\\Source\\FinalOdysseyServer.Target.cs"
+	],
+	"EngineVersion": "5.5.4"
+}
