@@ -160,7 +160,15 @@
 				"C:/Users/xlile/Desktop/3PA/Code/Games/Final-Odyssey/FinalOdyssey/Content/SectorMapLevel/Graphics/Placeholder_Default_Cursor.uasset",
 				"C:/Users/xlile/Desktop/3PA/Code/Games/Final-Odyssey/FinalOdyssey/Content/TopDownLevel/Input/TopDown_IMC.uasset",
 				"C:/Users/xlile/Desktop/3PA/Code/Games/Final-Odyssey/FinalOdyssey/Content/AllLevelContent/Graphics/AimCursor_Wid.uasset",
+<<<<<<< HEAD
 >>>>>>> origin/ControlType1
+=======
+				"C:/Users/xlile/Desktop/3PA/Code/Games/Final-Odyssey/FinalOdyssey/Content/TopDownLevel/Input/Move_IA_Mouse.uasset",
+				"C:/Users/xlile/Desktop/3PA/Code/Games/Final-Odyssey/FinalOdyssey/Content/TopDownLevel/Input/Move_IA.uasset",
+				"C:/Users/xlile/Desktop/3PA/Code/Games/Final-Odyssey/FinalOdyssey/Content/TopDownLevel/Input/Shoot_IA_Mouse.uasset",
+				"C:/Users/xlile/Desktop/3PA/Code/Games/Final-Odyssey/FinalOdyssey/Content/TopDownLevel/Input/Shoot_IA.uasset",
+				"C:/Users/xlile/Desktop/3PA/Code/Games/Final-Odyssey/FinalOdyssey/Content/TopDownLevel/Input/TopDown_IMC_Mouse.uasset",
+>>>>>>> b72d8587285647cfdcc378d15b42580e1c62e176
 				"C:/Users/xlile/Desktop/3PA/Code/Games/Final-Odyssey/FinalOdyssey/Content/TopDownLevel/Graphics/MiniMap_Wid.uasset",
 				"C:/Users/xlile/Desktop/3PA/Code/Games/Final-Odyssey/FinalOdyssey/Content/TopDownLevel/Graphics/DeathScreen_Wid.uasset",
 				"C:/Users/xlile/Desktop/3PA/Code/Games/Final-Odyssey/FinalOdyssey/Content/ItemLevels/CargoLevel/Resources/WRONG_RESOURCE_Icon_Sprite.uasset",
