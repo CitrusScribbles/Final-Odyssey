@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "FinalOdyssey",
+			"Path": "..\\Source\\FinalOdyssey.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FinalOdysseyEditor",
+			"Path": "..\\Source\\FinalOdysseyEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
