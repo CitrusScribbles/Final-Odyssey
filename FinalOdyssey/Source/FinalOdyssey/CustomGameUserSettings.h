@@ -14,7 +14,7 @@ class FINALODYSSEY_API UCustomGameUserSettings : public UGameUserSettings
 {
 	GENERATED_UCLASS_BODY()
 
-public:
+public: //Creates ways the blueprint can interact with this script by name, as seen below.
 	UFUNCTION(BlueprintCallable)
 	void SetTopDownControls(int32 PickedControls);
 
