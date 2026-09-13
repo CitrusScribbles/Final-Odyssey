@@ -15,17 +15,20 @@ class FINALODYSSEY_API UCustomGameUserSettings : public UGameUserSettings
 	GENERATED_UCLASS_BODY()
 
 public: //Creates ways the blueprint can interact with this script by name, as seen below.
+	//Below is the Volum getter and setter functions
 	UFUNCTION(BlueprintCallable)
-	void SetTopDownControls(int32 PickedControls);
+	void SetMasterVolume(float DesiredVolume);
 
 	UFUNCTION(BlueprintPure)
-	int32 GetTopDownControls() const;
+	float GetMasterVolume() const;
 
 	UFUNCTION(BlueprintCallable)
-	static UCustomGameUserSettings* GetTopDownControlSaved();
+	static UCustomGameUserSettings* GetCustomUserSettings();
+
 
 protected:
+	//Below is the name of the volume variable
 	UPROPERTY(Config)
-	int32 TopDownControls;
+	float MasterVolume;
 	
 };

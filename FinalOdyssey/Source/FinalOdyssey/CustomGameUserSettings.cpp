@@ -5,20 +5,20 @@
 
 UCustomGameUserSettings::UCustomGameUserSettings(const FObjectInitializer& ObjectInitializer) :Super(ObjectInitializer)
 {
-	TopDownControls = int32(0); //Set variable as kind [ex. integer], label, and starting value
+	MasterVolume = float(1); //Set standard volume as 1.
 }
 
-void UCustomGameUserSettings::SetTopDownControls(int32 PickedControls)
+void UCustomGameUserSettings::SetMasterVolume(float DesiredVolume)
 {
-	TopDownControls = PickedControls; //Create an in-script variable [PickedControls] to pass around the new value. This cannot be found in blueprints, only this script.
+	MasterVolume = DesiredVolume; //Set master volume of saved value to inputted volume.
 }
 
-int32 UCustomGameUserSettings::GetTopDownControls() const
+float UCustomGameUserSettings::GetMasterVolume() const
 {
-	return TopDownControls;
+	return MasterVolume;
 }
 
-UCustomGameUserSettings* UCustomGameUserSettings::GetTopDownControlSaved()
+UCustomGameUserSettings* UCustomGameUserSettings::GetCustomUserSettings()
 {
-	return Cast<UCustomGameUserSettings>(UGameUserSettings::GetGameUserSettings()); //Links this variable directly to game user settings, under the script of CustomGameUserSettings
+	return Cast<UCustomGameUserSettings>(UGameUserSettings::GetGameUserSettings());
 }

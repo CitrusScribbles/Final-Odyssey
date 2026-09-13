@@ -16,9 +16,9 @@ class UCustomGameUserSettings;
 #define FINALODYSSEY_CustomGameUserSettings_generated_h
 
 #define FID_Users_xlile_Desktop_3PA_Code_Games_Final_Odyssey_FinalOdyssey_Source_FinalOdyssey_CustomGameUserSettings_h_15_RPC_WRAPPERS \
-	DECLARE_FUNCTION(execGetTopDownControlSaved); \
-	DECLARE_FUNCTION(execGetTopDownControls); \
-	DECLARE_FUNCTION(execSetTopDownControls);
+	DECLARE_FUNCTION(execGetCustomUserSettings); \
+	DECLARE_FUNCTION(execGetMasterVolume); \
+	DECLARE_FUNCTION(execSetMasterVolume);
 
 
 #define FID_Users_xlile_Desktop_3PA_Code_Games_Final_Odyssey_FinalOdyssey_Source_FinalOdyssey_CustomGameUserSettings_h_15_INCLASS \
