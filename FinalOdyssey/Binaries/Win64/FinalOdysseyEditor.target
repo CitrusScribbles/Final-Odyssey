@@ -3942,6 +3942,18 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/AsyncLoac1ceae7b44acV11/Binaries/Win64/UnrealEditor-AsyncLoadingScreen.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/AsyncLoac1ceae7b44acV11/Binaries/Win64/UnrealEditor-AsyncLoadingScreen.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/AsyncLoac1ceae7b44acV11/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Marketplace/PaperZDb97529903aafV18/Binaries/Win64/UnrealEditor-PaperZD.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -30280,6 +30292,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/AsyncLoac1ceae7b44acV11/AsyncLoadingScreen.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Marketplace/PaperZDb97529903aafV18/PaperZD.uplugin",
 			"Type": "UFS"
 		},
@@ -30608,6 +30624,7 @@
 		"ArchVisCharacter",
 		"AssetManagerEditor",
 		"AssetTags",
+		"AsyncLoadingScreen",
 		"AudioCapture",
 		"AudioSynesthesia",
 		"AudioWidgets",
