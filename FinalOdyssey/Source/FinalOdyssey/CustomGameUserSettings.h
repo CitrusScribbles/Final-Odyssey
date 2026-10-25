@@ -23,12 +23,29 @@ public: //Creates ways the blueprint can interact with this script by name, as s
 	float GetMasterVolume() const;
 
 	UFUNCTION(BlueprintCallable)
+	void SetMusicVolume(float DesiredMusicVolume);
+
+	UFUNCTION(BlueprintPure)
+	float GetMusicVolume() const;
+
+	UFUNCTION(BlueprintCallable)
+	void SetSFXVolume(float DesiredSFXVolume);
+
+	UFUNCTION(BlueprintPure)
+	float GetSFXVolume() const;
+
+	UFUNCTION(BlueprintCallable)
 	static UCustomGameUserSettings* GetCustomUserSettings();
 
-
 protected:
-	//Below is the name of the volume variable
+	//Below is the name of the volume variables
 	UPROPERTY(Config)
 	float MasterVolume;
-	
+
+	UPROPERTY(Config)
+	float MusicVolume;
+
+	UPROPERTY(Config)
+	float SFXVolume;
+
 };

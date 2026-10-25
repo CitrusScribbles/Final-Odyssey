@@ -18,6 +18,26 @@ float UCustomGameUserSettings::GetMasterVolume() const
 	return MasterVolume;
 }
 
+void UCustomGameUserSettings::SetMusicVolume(float DesiredMusicVolume)
+{
+	MusicVolume = DesiredMusicVolume; //Set music volume of saved value to inputted volume.
+}
+
+float UCustomGameUserSettings::GetMusicVolume() const
+{
+	return MusicVolume;
+}
+
+void UCustomGameUserSettings::SetSFXVolume(float DesiredSFXVolume)
+{
+	SFXVolume = DesiredSFXVolume; //Set SFX volume of saved value to inputted volume.
+}
+
+float UCustomGameUserSettings::GetSFXVolume() const
+{
+	return SFXVolume;
+}
+
 UCustomGameUserSettings* UCustomGameUserSettings::GetCustomUserSettings()
 {
 	return Cast<UCustomGameUserSettings>(UGameUserSettings::GetGameUserSettings());
